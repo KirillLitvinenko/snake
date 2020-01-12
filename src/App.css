@@ -1,0 +1,33 @@
+.app {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-cell {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(56, 54, 59, 0.3);
+}
+
+.grid-cell-border {
+  background-color: #908a96;
+}
+
+.grid-cell-snake {
+  background-color: #103c5a;
+}
+
+.grid-cell-snack {
+  background-color: #a2570a;
+}
+
+.grid-cell-hit {
+  background-color: #a81817;
+}
